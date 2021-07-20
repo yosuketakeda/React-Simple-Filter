@@ -1,0 +1,112 @@
+
+/******************/
+body{
+    color: #232326;
+}
+ul{
+    padding: 0;    
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li .img-part{
+    margin: 0 7px;
+    width: 30px;
+}
+h3{
+    color: #3B3B3B;
+} 
+button:hover{
+    background: #A4D55D !important;
+    color: #fff !important;
+}
+.wrapper{
+    padding: 50px;
+    text-align: left;
+}
+.main{
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+}
+.separation-part{
+    border-right: 2px solid #c7c7c7;
+}
+.separation-part .search-field img{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.separation-part .search-field input{
+    width: 100%;
+    padding: 7px 15px 7px 40px;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    outline: none;
+}
+.separation-part .btn-field{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.separation-part .btn-field button{
+    width: 33%;
+    background: #E8E8E8;
+    border: none;
+    color: #636363;
+    border-radius: 5px;
+    padding: 7px;
+}
+.separation-part p{
+    margin: 0;
+}
+.separation-part .btn-field button.active, .bottom button.active{
+    background: #A4D55D;
+    color: #fff;
+}
+.separation-part li.field{
+    padding: 10px 5px;    
+}
+.separation-part li.field:hover{
+    cursor: pointer;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+}
+.title{
+    padding: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+ul.selected-fields{
+    padding: 10px 0;
+}
+.selected-fields li{
+    padding: 5px 0;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.bottom button{
+    margin: 0 20px;
+    width: 200px;
+    background: #E8E8E8;
+    border: none;
+    color: #636363;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+@media (max-width:767px){
+    .row{
+        min-height: 500px !important;
+    }
+    .wrapper{
+        padding: 20px;
+    }
+    .separation-part, .selected-part{
+        border: none;
+        padding: 25px !important;
+    }
+}
