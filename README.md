@@ -1,3 +1,12 @@
+# description
+
+There are 3 checkboxes on the left side. If click any checkbox, it should be added on the right side automatically.
+If click checkbox again, it should be disappeared on the right side, like toggle button property.
+On the top search bar, when type letters, only the filtered fields should be shown on the left field side. This will render and filter per typing of each letter.
+
+This looks simple, but solid React technique is required.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
